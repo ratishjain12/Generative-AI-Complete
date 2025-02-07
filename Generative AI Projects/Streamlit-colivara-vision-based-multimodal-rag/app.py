@@ -59,8 +59,5 @@ def main():
                 else:
                     st.toast("Please upload a PDF file")
         
-
-
-
 if __name__ == "__main__":
     main()
