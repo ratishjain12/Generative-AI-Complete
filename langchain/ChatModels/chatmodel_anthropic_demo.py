@@ -6,4 +6,4 @@ load_dotenv()
 model = ChatAnthropic(model="claude")
 result = model.invoke("What is the capital of France?")
 
-print(result)
+print(result.content)
